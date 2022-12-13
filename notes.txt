@@ -1,0 +1,142 @@
+Everything in python is object
+** Every object contains methods ****
+
+objects
+--------
+
+number
+---------
+number can be integer or decimal or octal or hexa.
+
+aval = 10
+bval  = 34.34
+
+
+string
+-----------
+string is defined in single or double or triple quotes.
+
+name = 'python'
+aname = "python programming"
+bname = """unix shell scripting"""
+
+
+
+list ( array in c )
+---------------------
+list contains set of elements.
+Elements can be numbers or strings or any combination.
+list elements are defined in []
+
+alist = [10,20,30,40]
+blist = ["java","oracle",34]
+
+
+
+tuple ( immutable ,unchangeable , uneditable)
+--------
+tuple contains set of elements.
+Elements can be numbers or strings or any combination.
+tuple elmeents are defined in ().
+Elements defined in tuple cant be modifed directly.
+
+atup = (45,23,23,9)
+btup = ("java","unix","python")
+
+
+dictionary   ( json  hashmap  hash   associativearray )
+-------------------------------
+dictionary contains elements in key-value pairs.
+keys are always unique
+key can be either number or string
+value can be number or string or list or tuple or dictionary or complex struc
+
+sytax:    object = {key:value , key:value , key:value }
+example:    book = {"chap1":10 ,"chap2":20,"chap3":30 }
+
+
+set
+------
+set is UNORDERED collection of UNIQUE values of the same type.
+
+aset = {10,10,10,20,30}
+
+
+
+classify the objects
+-------------------------
+
+
+
+mutable objects ( changeable )
+------------------
+list
+set
+dictionary
+
+immutable objects  ( unchangeable)
+---------------------
+number
+string
+tuple
+
+
+file handling
+---------------
+
+
+- flat files  ( csv properties conf log dat ... )
+-------------
+
+opening the file
+------------------
+
+syntax:     object = open(filename,mode)
+example:        fr = open('abc.txt','r')
+                fw = open('abc.txt','w')
+                fa = open('abc.txt','a')
+
+
+
+
+closing the flie
+--------------------
+fr.close()
+
+
+read operation
+---------------
+- reading line by line using file object
+- using fobj.readlines()
+- using fobj.read()
+- using csv library
+- using pandas library
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+- third party files  ( pdf xlsx docx ... )
+
+
+
+
+
+
+
+
+
+
+
+
