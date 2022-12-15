@@ -1,4 +1,4 @@
-Everything in python is object
+** Everything in python is object ***
 ** Every object contains methods ****
 
 objects
@@ -115,10 +115,83 @@ read operation
 
 
 
+exception handling
+-------------------
+
+
+There are 2 types of errors
+
+- syntax error
+- semantic error
+
+handling the errors in runtime is known as exception handling.
+
+
+try
+except
+else
+finally
+raise
+
+
+package | library | module
+------------------------------
+-reusability purpose
+-Every library contains set of methods.
 
 
 
 
+
+
+
+mysql steps
+---------------
+display all existing databases
+-------------------------------
+show databases;
+
+creating database
+-----------------
+create database optum;
+
+access your database
+----------------------
+use optum;
+
+creating table
+------------------
+create table realestate( street varchar(100), city varchar(100));
+
+inserting records
+-------------------
+insert into realestate values('Hitechcity','Hyderabad');
+insert into realestate values('MG Road','Chennai');
+
+display all records
+-------------------
+select * from realstate;
+
+
+
+
+re  - regular expressions
+--------------------------
+-search for patterns   ( re.search)
+- match for patterns   ( re.match()
+- replace              ( re.sub)
+- find                 ( re.findall)
+- split                ( re.split)
+
+metacharacters or wildcard characters
+-------------------------------------
+^   $  +   * ?  .  ()  []  {}  \d \w \s
+
+
+
+
+
+^ -  match at the beginning of the string
 
 
 
@@ -128,6 +201,97 @@ read operation
 
 
 - third party files  ( pdf xlsx docx ... )
+
+
+
+
+package | module | library
+-------------------------------
+
+
+builtin libraries
+------------------
+Builtin libraries which are generally used(math operations , OS level oprations , string manipulations , ftp ,) by everyone and installed with python tool itself.
+
+
+
+
+third party libraries
+----------------------
+Depending on the requirement(cloud automations, ML, DA, test automation, IoT , network automations), developer has to install to third party module from 
+
+
+
+- downloading manually and installing from www.pypi.org
+- using pip tool ( pip install packagename)
+
+
+
+
+definition | function | submodule | subroutine
+-------------------------------------------------
+- reusability purpose
+- it starts with def keyword
+
+
+different ways of passing arguments
+-------------------------------------
+
+fixed arguments
+default arguments
+keyword arguments
+variable length arguments
+
+
+
+Object oriented programming
+------------------------------
+
+
+- procedural programming  ( top down approach , Eg: C )
+- Object oriented programming  ( eg. java, python )
+
+
+
+class
+-----
+Class is just like blueprint of any model.
+Every class contains data members and member functions.
+
+Object
+---------
+object is the instance of the class.
+
+self
+------
+self is the instance of the object
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
